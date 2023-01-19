@@ -1,0 +1,35 @@
+body {
+    background-image: url('../img/ac.jpg');
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    border: solid black 1px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+#boxA {
+    background-image: url('../img/back_mantel.jpg');
+}
+
+#boxB {
+    background-image: url('../img/back_mantel.jpg');
+    background-clip: content-box;
+}
+
+#boxC {
+    background-image: url('../img/back_mantel.jpg');
+    background-size: cover;
+}
+
+#boxD {
+    background-image: url('../img/back_mantel.jpg');
+    background-color: white;
+    background-clip: content-box;
+    background-size: cover;
+}
